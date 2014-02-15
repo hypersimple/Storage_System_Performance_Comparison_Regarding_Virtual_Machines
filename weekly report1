@@ -1,0 +1,16 @@
+This week we mainly investiage the functionality of some I/O benchmarks.
+
+Yue Chen:
+Investiaged the details of the FIO benchmark.
+
+FIO is an I/O tool meant to be used both for benchmark and stress/hardware verification. It has support for 13 different types of I/O engines (sync, mmap, libaio, posixaio, SG v3, splice, null, network, syslet, guasi, solarisaio, and more), I/O priorities (for newer Linux kernels), rate I/O, forked or threaded jobs, and much more. It supports Linux, FreeBSD, NetBSD, OS X, OpenSolaris, AIX, HP-UX, and Windows.
+
+
+
+
+Ritvik Gupta:
+Investiaged the details of the Bonnie++ benchmark.
+
+Bonnie is a benchmark which measures the performance of Unix file system operations. Bonnie is concerned with identifying bottlenecks.
+
+Bonnie++ greatly improves disk I/O benchmark based on the code for Bonnie. It is rewritten in C++, and adds the facility to test more than 2Gb of storage on 32-bit machines, and tests for file creat(), stat(), unlink() operations.
