@@ -1,0 +1,6 @@
+This week we learn how to analyze the test results and how to visualize the results.
+
+The benchmark itself has the functionality to generate the Excel-friendly sheet results and to use gnuplot to draw 3D figures.
+This is a good approach to analyze the result from a intuitive perspective.
+
+Since Github is not good for uploading non-text files, we choose to show our figures in the final report, not here.
