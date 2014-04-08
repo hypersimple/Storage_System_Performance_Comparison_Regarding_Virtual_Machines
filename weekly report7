@@ -1,0 +1,1 @@
+This week we read some more papers and do some analysis, and figure out that the storage performance does not only depend on the VMM, but also largely depends on the file systems of host and guest OSes. Also, the deduplication of virtual I/O plays an important role in the performance impact. So we discussed and think about changing our measurement and analysis approach a little.
